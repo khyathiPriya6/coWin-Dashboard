@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  height: 100%;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-heading {
+  color: #2cc6c6;
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.cowin-icon {
+  width: 55px;
+  margin: 10px;
+}
+
+.info-para {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.graphs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-message {
+  color: #ffffff;
+}
+
+.failure-img {
+  width: 50%;
+  height: 20%;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
